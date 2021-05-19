@@ -4,6 +4,7 @@
       <mapping pattern="*.js.flow" type="Flow" />
       <mapping pattern="*.js.flow" type="Flow" />
       <mapping pattern="ignore" type="Git exclude file" />
+      <mapping pattern="BBCO-934" type="PLAIN_TEXT" />
     </extensionMap>
   </component>
 </application>
