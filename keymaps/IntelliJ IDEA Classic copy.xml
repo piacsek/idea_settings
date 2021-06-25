@@ -1,4 +1,10 @@
 <keymap version="1" name="IntelliJ IDEA Classic copy" parent="Mac OS X">
+  <action id="ActivateNotesToolWindow">
+    <keyboard-shortcut first-keystroke="ctrl n" />
+  </action>
+  <action id="Arrangement.Rule.Add">
+    <keyboard-shortcut first-keystroke="ctrl enter" />
+  </action>
   <action id="CloseActiveTab" />
   <action id="CloseAllEditorsButActive">
     <keyboard-shortcut first-keystroke="shift ctrl w" />
@@ -13,8 +19,17 @@
   <action id="DatabaseView.CopyDdlAction">
     <keyboard-shortcut first-keystroke="shift meta alt g" />
   </action>
+  <action id="Generate">
+    <keyboard-shortcut first-keystroke="ctrl enter" />
+  </action>
   <action id="Macro.IO.inspect()">
     <keyboard-shortcut first-keystroke="shift ctrl back_slash" />
+  </action>
+  <action id="NewElement">
+    <keyboard-shortcut first-keystroke="ctrl enter" />
+  </action>
+  <action id="RemoteHost.NewRemoteItem">
+    <keyboard-shortcut first-keystroke="ctrl enter" />
   </action>
   <action id="Run">
     <keyboard-shortcut first-keystroke="shift f10" />
