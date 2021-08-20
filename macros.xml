@@ -7,5 +7,20 @@
       <shortuct text="ENTER" />
       <typing text-keycode="0:1;84:0;65:0;71:0;32:0;513:1;83:0;75:0;73:0;80:0">@tag&amp;#x20;:skip</typing>
     </macro>
+    <macro name="test_module_name_to_tested_module_alias">
+      <action id="EditorLineStart" />
+      <action id="EditorDuplicate" />
+      <action id="EditorNextWordWithSelection" />
+      <typing text-keycode="65:0;76:0;73:0;65:0;83:0">alias</typing>
+      <action id="EditorLineEnd" />
+      <action id="EditorBackSpace" />
+      <action id="EditorBackSpace" />
+      <action id="EditorBackSpace" />
+      <action id="EditorBackSpace" />
+      <action id="EditorBackSpace" />
+      <action id="EditorBackSpace" />
+      <action id="EditorBackSpace" />
+      <action id="Tool_External Tools_mix format" />
+    </macro>
   </component>
 </application>
